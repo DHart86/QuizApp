@@ -1,3 +1,114 @@
 .hidden {
   display: none;
 }
+
+.row {
+  margin-right:0;
+}
+
+* {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: large;
+}
+
+body {
+  padding:0px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 50px
+}
+
+i {
+  color: #F39C12;
+  z-index: 2;
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+p {
+  padding-left:5px;
+}
+
+input {
+  float: left;
+}
+
+
+input[type="radio"] {
+  width:20px;
+  margin-right:10px;
+  margin-top:2px
+}
+
+@media screen and (min-width: 680px) {
+  .wrap {
+    margin-top:100px;
+  }
+}
+
+
+.radio {
+  background-color:#999;
+  -webkit-appearance: none;
+  border:2px solid #eee;
+  display:inline-block;
+  width:20px;
+  height:20px;
+  border-radius:15px;
+}
+
+.radio:active {
+  background-color:green;
+}
+
+.radio:checked {
+  background-color:#2ECC71;
+}
+
+label {
+  margin-left: 10px;
+  padding-left: 10px;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.questAn {
+  margin: 5px;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  bottom: 0;
+  margin: 10px;
+  line-height: inherit;
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #2ECC71;
+}
+
+.wrap {
+  background-color: #DADFE1;
+  padding:0px;
+  box-shadow: 0px 0px 45px gray;
+  border-radius:10px;
+}
+
+.glow {
+  text-shadow: 2px 2px 25px yellow;
+}
+
+button:hover {
+  background-color:#54d98c;
+}

@@ -1,3 +1,4 @@
+$(document).ready(function() {
 var currentQ = 0;
 var correctAnswers = 0;
 var questions = [{
@@ -76,4 +77,5 @@ $('button').on("click", $(".radio"), function() {
     }
   }
 
+});
 });
